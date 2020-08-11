@@ -21,8 +21,7 @@
     "test": "npm-run-all lint:* test:*",
     "test:ember": "ember test",
     "test:ember-compatibility": "ember try:each",
-    "prepack": "ember ts:precompile",
-    "postpack": "ember ts:clean"
+    "prepack": "tsc --build"
   },
   "dependencies": {
     "ember-cli-babel": "^7.21.0",
@@ -73,5 +72,8 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
+  },
+  "typesVersions": {
+    "*": { "*": ["declarations/*"] }
   }
 }
