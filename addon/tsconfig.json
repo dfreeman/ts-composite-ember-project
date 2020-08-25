@@ -3,8 +3,8 @@
   "compilerOptions": {
     "declarationDir": "../declarations",
     "paths": {
-      "ts-composite-addon": ["."],
-      "ts-composite-addon/*": ["./*"],
+      "ts-composite-addon": ["addon"],
+      "ts-composite-addon/*": ["addon/*"],
     }
   }
 }
