@@ -4,6 +4,7 @@
 /dist/
 /tmp/
 /declarations/
+*.tsbuildinfo
 
 # dependencies
 /bower_components/

@@ -1,0 +1,15 @@
+{
+  "extends": "../../../tsconfig.compileroptions.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declarationDir": "../declarations",
+    "paths": {
+      "ts-composite-app/*": ["*"],
+      "*": ["../types/*"]
+    }
+  },
+  "include": [".", "../types"],
+  "references": [
+    { "path": "../../ts-composite-addon" }
+  ]
+}

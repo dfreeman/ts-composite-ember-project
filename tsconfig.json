@@ -1,6 +1,7 @@
 {
   "files": [],
   "references": [
-    { "path": "packages/ts-composite-addon" }
+    { "path": "packages/ts-composite-addon" },
+    { "path": "packages/ts-composite-app" }
   ]
 }
