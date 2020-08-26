@@ -17,7 +17,6 @@
     "noEmit": false,
     "inlineSourceMap": true,
     "inlineSources": true,
-    "baseUrl": ".",
     "module": "es6",
     "experimentalDecorators": true,
     "composite": true,

@@ -4,9 +4,11 @@ import loadInitializers from 'ember-load-initializers';
 import config from 'dummy/config/environment';
 
 import { value } from 'ts-composite-addon';
+import { nestedAddonModuleA } from 'ts-composite-addon/dir/nested-module';
 import { testValue } from 'ts-composite-addon/test-support';
+import { nestedTestSupportA } from 'ts-composite-addon/test-support/dir/nested-module';
 
-console.log({ value, testValue });
+console.log({ value, testValue, nestedAddonModuleA, nestedTestSupportA });
 
 export default class App extends Application {
   modulePrefix = config.modulePrefix;

@@ -1,12 +1,13 @@
 {
   "extends": "../tsconfig.compileroptions.json",
   "compilerOptions": {
+    "baseUrl": ".",
     "declarationDir": "../declarations/test-support",
     "paths": {
-      "ts-composite-addon": ["declarations"],
-      "ts-composite-addon/*": ["declarations/*"],
-      "ts-composite-addon/test-support": ["addon-test-support"],
-      "ts-composite-addon/test-support/*": ["addon-test-support/*"],
+      "ts-composite-addon": ["../declarations"],
+      "ts-composite-addon/*": ["../declarations/*"],
+      "ts-composite-addon/test-support": ["."],
+      "ts-composite-addon/test-support/*": ["./*"],
     }
   },
   "references": [

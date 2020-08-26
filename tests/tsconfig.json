@@ -1,13 +1,17 @@
 {
   "extends": "../tsconfig.compileroptions.json",
   "compilerOptions": {
-    "declarationDir": "dummy/declarations",
+    "baseUrl": ".",
+    // Question: what's the best place for test and dummy declarations to go? They
+    // aren't actually needed for anything other than to satisfy the requirements
+    // for a composite build.
+    "declarationDir": "./dummy/declarations",
     "paths": {
-      "dummy/tests/*": ["tests/*"],
-      "dummy/*": ["tests/dummy/app/*"],
-      "ts-composite-addon": ["declarations"],
-      "ts-composite-addon/*": ["declarations/*"],
-      "*": ["types/*"]
+      "dummy/tests/*": ["./*"],
+      "dummy/*": ["./dummy/app/*"],
+      "ts-composite-addon": ["../declarations"],
+      "ts-composite-addon/*": ["../declarations/*"],
+      "*": ["../types/*"]
     }
   },
   "include": [
