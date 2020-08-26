@@ -1,5 +1,5 @@
 {
-  "extends": "../tsconfig.compileroptions.json",
+  "extends": "../../../tsconfig.compileroptions.json",
   "compilerOptions": {
     "baseUrl": ".",
     // Question: what's the best place for test and dummy declarations to go? They
