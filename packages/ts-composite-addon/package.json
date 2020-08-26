@@ -74,6 +74,8 @@
     "configPath": "tests/dummy/config"
   },
   "typesVersions": {
-    "*": { "*": ["declarations/*"] }
+    "*": {
+      "*": ["declarations/*", "declarations/*/index"]
+    }
   }
 }

@@ -1,8 +1,6 @@
 {
+  "extends": "../../tsconfig.compileroptions.json",
   "files": [],
-  "compilerOptions": {
-    "composite": true
-  },
   "references": [
     { "path": "addon" },
     { "path": "addon-test-support" },
