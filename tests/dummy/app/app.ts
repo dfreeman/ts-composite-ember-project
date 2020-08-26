@@ -15,3 +15,6 @@ export default class App extends Application {
 }
 
 loadInitializers(App, config.modulePrefix);
+
+// Declared to be a string in `types/random-augmentation.d.ts`
+console.log(globalFoo.toUpperCase());

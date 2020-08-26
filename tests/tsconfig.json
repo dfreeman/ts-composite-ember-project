@@ -10,6 +10,10 @@
       "*": ["types/*"]
     }
   },
+  "include": [
+    ".",
+    "../types"
+  ],
   "references": [
     { "path": "../addon" },
     { "path": "../addon-test-support" },
