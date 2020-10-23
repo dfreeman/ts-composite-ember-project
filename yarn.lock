@@ -1275,14 +1275,42 @@
   dependencies:
     "@types/node" "*"
 
-"@types/ember-data@^3.16.2":
-  version "3.16.2"
-  resolved "https://registry.yarnpkg.com/@types/ember-data/-/ember-data-3.16.2.tgz#2e53e7340f770c08b1388e7b36347c9fbfb7c162"
-  integrity sha512-LilHloPKQ2JhpSRAwreNYMzpviwbDPcItgExsKwXbQ/Ve3zyvdN1CyY2Fj9RQoGsER/3H0Ih6maMMTdTlHIZag==
+"@types/ember-data@*", "@types/ember-data@^3.16.6":
+  version "3.16.6"
+  resolved "https://registry.yarnpkg.com/@types/ember-data/-/ember-data-3.16.6.tgz#209bfa9b6979be32c3ed4a3abf04c274a37be04c"
+  integrity sha512-gx73u5XhJxlui1PP6grft5i6jpfTpcORk35pVBlPGkhQVWjez44iq2B/e7iVXomw9FkGVpp+htDsCmfo4nzDzA==
   dependencies:
     "@types/ember" "*"
     "@types/ember__object" "*"
     "@types/rsvp" "*"
+
+"@types/ember-data__adapter@^3.16.1":
+  version "3.16.1"
+  resolved "https://registry.yarnpkg.com/@types/ember-data__adapter/-/ember-data__adapter-3.16.1.tgz#8f93c2efb6be2d9fd2e380d2af58fd517b88955f"
+  integrity sha512-8OcbVa3t8kCE2zJ9480zbLyntEQr6WZYNErwDxyaBIXGI+/J16BHfcXYdeUR7gNeVtKLJAjLSPX+k3shVNVGMQ==
+  dependencies:
+    "@types/ember-data" "*"
+
+"@types/ember-data__model@^3.16.1":
+  version "3.16.1"
+  resolved "https://registry.yarnpkg.com/@types/ember-data__model/-/ember-data__model-3.16.1.tgz#54c1e88cf52f08bafcd0701a266a85feb5ae2950"
+  integrity sha512-RJMpKpq8jkLuUl/+E45PegE7fCXIzGlN854oJx6TwnOskZYx0CNe/dXeuicNuFbKRSPtfSqb9rmIXb5ApEUC2w==
+  dependencies:
+    "@types/ember-data" "*"
+
+"@types/ember-data__serializer@^3.16.1":
+  version "3.16.1"
+  resolved "https://registry.yarnpkg.com/@types/ember-data__serializer/-/ember-data__serializer-3.16.1.tgz#949b495f85294c0f825f85844d400c9642a99bff"
+  integrity sha512-IhXuh8MlhYXlDu/s3pnfVAx0eOgIfGJpeKfIwj5ZriJCfDNTBAIFTcBNHFj+EuET5LmzwUbMvrSmXlxDyLDxwQ==
+  dependencies:
+    "@types/ember-data" "*"
+
+"@types/ember-data__store@^3.16.1":
+  version "3.16.1"
+  resolved "https://registry.yarnpkg.com/@types/ember-data__store/-/ember-data__store-3.16.1.tgz#34c454a8e551099e6b4aa9de12088e4af9da2977"
+  integrity sha512-rH13Bz0HUr9hy/8SyRcVfRJ80iOaaTHec9ZEIDfL6A4IRHvZidw4MH7exitSqz1SDCgNP1qwn6qRswfrpG1drA==
+  dependencies:
+    "@types/ember-data" "*"
 
 "@types/ember-qunit@^3.4.9":
   version "3.4.9"
@@ -11094,11 +11122,6 @@ typescript-memoize@^1.0.0-alpha.3:
   integrity sha1-aZpUFfiGaUqNbi5UUbwoo5prwvk=
   dependencies:
     core-js "2.4.1"
-
-typescript@^3.9.7:
-  version "3.9.7"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.7.tgz#98d600a5ebdc38f40cb277522f12dc800e9e25fa"
-  integrity sha512-BLbiRkiBzAwsjut4x/dsibSTB6yWpwT5qWmC2OfuCg3GgVQCSgMs4vEctYPhsaGtd0AeuuHMkjZ2h2WG8MSzRw==
 
 typescript@^4.0.2:
   version "4.0.2"
