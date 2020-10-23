@@ -4,5 +4,8 @@
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
   }
 }
